@@ -1,13 +1,13 @@
 ###
 # Unity folders and files
 ###
-/Eye_Gaze_git/[Aa]ssets/AssetStoreTools*
-/Eye_Gaze_git/[Bb]uild/
-/Eye_Gaze_git/[Ll]ibrary/
-/Eye_Gaze_git/[Ll]ocal[Cc]ache/
-/Eye_Gaze_git/[Oo]bj/
-/Eye_Gaze_git/[Tt]emp/
-/Eye_Gaze_git/[Uu]nityGenerated/
+[Aa]ssets/AssetStoreTools*
+[Bb]uild/
+[Ll]ibrary/
+[Ll]ocal[Cc]ache/
+[Oo]bj/
+[Tt]emp/
+[Uu]nityGenerated/
 # file on crash reports
 sysinfo.txt
 # Unity3D generated meta files
