@@ -2,18 +2,22 @@
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
+// This script will NOT run if a component of type ARFace is not attached to the object
 [RequireComponent(typeof(ARFace))]
 public class EyeTracker : MonoBehaviour
 {
+    // We serialized these GameObjects so that we can assign them through the unity editor
     [SerializeField] private GameObject leftEyePrefab;
     [SerializeField] private GameObject rightEyePrefab;
-
-    private GameObject _leftEye, _rightEye;
+    
+    private GameObject _leftEye;
+    private GameObject _rightEye;
 
     private ARFace _arFace;
-
+    
     private void Awake()
     {
+        // When the script is loaded get the ARFace component attached to the object
         _arFace = GetComponent<ARFace>();
     }
 
@@ -21,8 +25,9 @@ public class EyeTracker : MonoBehaviour
     {
         var faceManager = FindObjectOfType<ARFaceManager>();
         
-        /* Ensuring we found the Face manager and that it's subsystem exists
-         before checking that the device supports eye tracking */
+        /* IF the faceManager is not null, ensure that its subsystem is not null,
+         then make sure the device supports eye tracking - if it does set the ARFace to run
+         our OnUpdated code every time ARFace updates, if it doesn't let the console know */
         if (faceManager != null && faceManager.subsystem != null && faceManager.subsystem.SubsystemDescriptor.supportsEyeTracking)
         {
             _arFace.updated += OnUpdated;
@@ -35,12 +40,15 @@ public class EyeTracker : MonoBehaviour
 
     private void OnDisable()
     {
+        // When the script is disabled remove our OnUpdated code from the ARFace's updated code
         _arFace.updated -= OnUpdated;
         SetVisibility(false);
     }
 
-    void OnUpdated(ARFaceUpdatedEventArgs eventArgs)
+    private void OnUpdated(ARFaceUpdatedEventArgs eventArgs)
     {
+        /* if the ARFace detects eyes, and the eye is null instantiate the eye prefab
+         at the ARFace eye Transform location */
         if (_arFace.leftEye != null && _leftEye == null)
         {
             _leftEye = Instantiate(leftEyePrefab, _arFace.leftEye);
@@ -51,18 +59,20 @@ public class EyeTracker : MonoBehaviour
             _rightEye = Instantiate(rightEyePrefab, _arFace.rightEye);
             _rightEye.SetActive(false);
         }
-
+        
+        /* if ARFace's tracking state is currently tracking, and it's state is currently
+         initializing or tracking (both return greater values than ARSessionState.Ready) then
+         set visibility to true, else false */
         var isVisible = (_arFace.trackingState == TrackingState.Tracking) && (ARSession.state > ARSessionState.Ready);
         SetVisibility(isVisible);
     }
 
-    void SetVisibility(bool isVisible)
+    private void SetVisibility(bool isVisible)
     {
-        if (_leftEye != null && _rightEye != null)
-        {
-            _leftEye.SetActive(isVisible);
-            _rightEye.SetActive(isVisible);
-        }
+        // as long as neither of the eyes are null update their active values
+        if (_leftEye == null || _rightEye == null) return;
+        _leftEye.SetActive(isVisible);
+        _rightEye.SetActive(isVisible);
     }
 
 }

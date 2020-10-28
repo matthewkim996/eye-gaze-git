@@ -12,7 +12,7 @@ public class EyeTrackerSupported : MonoBehaviour
         
         /* Ensuring we found the Face manager and that it's subsystem exists
          before checking that the device supports eye tracking */
-        if (faceManager != null)
+        if (faceManager != null && faceManager.subsystem != null && faceManager.subsystem.SubsystemDescriptor.supportsEyeTracking)
         {
             eyeTrackerSupportedText.text = "Eye Tracking is supported";
         }
