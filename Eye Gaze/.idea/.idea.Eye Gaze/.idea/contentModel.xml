@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\chris\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\chris\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Eye Gaze.-224965442.00" t="ExcludeRecursive" />
-    <e p="C:\Users\chris\OneDrive\Documents\Unity\Git Controlled Projects\eye-gaze\Eye Gaze" t="IncludeRecursive">
+    <e p="C:\Users\chris\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Eye Gaze.1332037541.00" t="ExcludeRecursive" />
+    <e p="C:\Users\chris\OneDrive\Documents\Unity\Eye_Gaze_git\Eye Gaze" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="CalibrationSetup.cs" t="Include" />
           <e p="EyeTracker.cs" t="Include" />
           <e p="EyeTrackerSupported.cs" t="Include" />
+          <e p="Movement.cs" t="Include" />
         </e>
       </e>
       <e p="Eye Gaze.sln" t="IncludeFlat" />

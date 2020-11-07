@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99e98fc2-236e-45a0-b67b-f09b554ddd40" name="Default Changelist" comment="" />
+    <list default="true" id="99e98fc2-236e-45a0-b67b-f09b554ddd40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EyeTracking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EyeTracking.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,16 +25,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARFaceManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/81/0515b656/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/ce/6b71992e/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/CalibrationSetup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
       </list>
     </option>
   </component>
@@ -85,9 +106,55 @@
       <workItem from="1602712017665" duration="1364000" />
       <workItem from="1602713636681" duration="1312000" />
       <workItem from="1603921130365" duration="2365000" />
+      <workItem from="1604094304446" duration="1226000" />
+      <workItem from="1604101182777" duration="3308000" />
+      <workItem from="1604361800765" duration="11557000" />
+      <workItem from="1604432253566" duration="13242000" />
+      <workItem from="1604531667626" duration="781000" />
+      <workItem from="1604624150852" duration="12644000" />
+      <workItem from="1604685767335" duration="354000" />
+      <workItem from="1604728330875" duration="905000" />
+      <workItem from="1604777200934" duration="4583000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state width="914" height="315" key="GridCell.Tab.0.bottom" timestamp="1604447975208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604447975208" />
+    <state width="914" height="315" key="GridCell.Tab.0.center" timestamp="1604447975208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="315" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604447975208" />
+    <state width="914" height="315" key="GridCell.Tab.0.left" timestamp="1604447975208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="315" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604447975208" />
+    <state width="914" height="315" key="GridCell.Tab.0.right" timestamp="1604447975208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604447975208" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs</url>
+          <line>70</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" initialLine="65">
+            <startOffsets>
+              <option value="2582" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2609" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>

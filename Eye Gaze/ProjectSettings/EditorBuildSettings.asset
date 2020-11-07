@@ -12,5 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/EyeTracking.unity
     guid: 535d72a56c94f5d43a9cc2114dcefd2c
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 3f85d728b0162054593d9f7d16bdc029, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 83e420c3d44b0cc4e978c42a9034687d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a698095cb146fbf41940bf13a9bdeaf2, type: 2}

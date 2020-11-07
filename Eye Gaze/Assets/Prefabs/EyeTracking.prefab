@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7608685767513998601}
   m_Layer: 0
   m_Name: EyeTracking
-  m_TagString: Untagged
+  m_TagString: EyeTracking
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,3 +59,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftEyePrefab: {fileID: 5396408696882132303, guid: 234a991b083637d4a94a3c76cb89187f, type: 3}
   rightEyePrefab: {fileID: 5396408696882132303, guid: 46fbc028e84b4364ebd1ee35fd6bdaf6, type: 3}
+  eyeTrackerSupportedText: {fileID: 0}
+  arFace: {fileID: 0}
