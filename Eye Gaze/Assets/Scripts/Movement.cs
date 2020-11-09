@@ -20,7 +20,8 @@ public class Movement : MonoBehaviour
     private Vector2 _screenMid;
     private float _screenMax;
     private float _screenMin;
-
+    private float _pixelsPerEyeMovement;
+    private float[] _eyeValueAtLocation;
     private ARFace _arFace;
 
     private void Awake()
@@ -31,18 +32,25 @@ public class Movement : MonoBehaviour
         _screenMin = 50;
     }
 
-    public void StartMoving(float mid, float max, float min , ARFace arFace)
+    public void StartMoving(float[] eyeValueAtLocation, ARFace arFace)
     {
-        _mid = mid;
-        _max = max;
-        _min = min;
+        _eyeValueAtLocation = eyeValueAtLocation;
         _arFace = arFace;
         
         var position = new Vector3(_screenMid.x, _screenMid.y, 0);
         _cursor = Instantiate(cursorPrefab, position, Quaternion.identity);
         _cursor.transform.SetParent(transform, true);
         isMoving.text = "IsMoving: True";
+        FindDistances();
         _isReady = true;
+    }
+
+    private void FindDistances()
+    {
+        var distanceFromMidToMaxScreenSpace = (_size.height - 150) - (_size.height / 2);
+        var distanceFromMidToMaxWorldSpace = _eyeValueAtLocation[1] - _eyeValueAtLocation[0];
+        _pixelsPerEyeMovement =  distanceFromMidToMaxWorldSpace / distanceFromMidToMaxScreenSpace;
+
     }
     // Start is called before the first frame update
     void Start()
@@ -54,9 +62,9 @@ public class Movement : MonoBehaviour
     void Update()
     {
         if (!_isReady) return;
-        var rotationValue = _arFace.leftEye.transform.rotation.x;
+        var rotationValue = (_arFace.leftEye.transform.rotation.x -_eyeValueAtLocation[0]) / _pixelsPerEyeMovement;
         _cursor.transform.position =
-            new Vector3(_screenMid.x, rotationValue > _mid ? _screenMax : _screenMin, 0);
-        isMoving.text = "IsMoving: True " + rotationValue;
+            new Vector3(_screenMid.x, _screenMid.y + rotationValue, 0);
+        isMoving.text = "IsMoving: True " + _screenMid.y + rotationValue;
     }
 }

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99e98fc2-236e-45a0-b67b-f09b554ddd40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EyeTracking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EyeTracking.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Calibration Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Calibration Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EyeTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/81/0515b656/Void.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Calibration Prefab.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/04258D1C-DC10-4424-8C2A-17A6A31A3CF7/ce/6b71992e/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -114,7 +107,9 @@
       <workItem from="1604624150852" duration="12644000" />
       <workItem from="1604685767335" duration="354000" />
       <workItem from="1604728330875" duration="905000" />
-      <workItem from="1604777200934" duration="4583000" />
+      <workItem from="1604777200934" duration="16351000" />
+      <workItem from="1604863559735" duration="9280000" />
+      <workItem from="1604888237357" duration="2731000" />
     </task>
     <servers />
   </component>
@@ -137,6 +132,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="315" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604447975208" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604889672008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604889672008" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
