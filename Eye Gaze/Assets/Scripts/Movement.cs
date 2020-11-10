@@ -63,8 +63,12 @@ public class Movement : MonoBehaviour
     {
         if (!_isReady) return;
         var rotationValue = (_arFace.leftEye.transform.rotation.x -_eyeValueAtLocation[0]) / _pixelsPerEyeMovement;
-        _cursor.transform.position =
-            new Vector3(_screenMid.x, _screenMid.y + rotationValue, 0);
-        isMoving.text = "IsMoving: True " + _screenMid.y + rotationValue;
+        var newPosition = new Vector3(_screenMid.x, _screenMid.y + rotationValue, 0);
+        var currentPosition = _cursor.transform.position;
+        var distance = Vector3.Distance(currentPosition, newPosition);
+        if(distance > 37.5f)
+            _cursor.transform.position = Vector3.MoveTowards(currentPosition, newPosition, 360f * Time.deltaTime);
+        
+        isMoving.text = "IsMoving: True " + (_screenMid.y + rotationValue) + "\n Distance: " + distance;
     }
 }

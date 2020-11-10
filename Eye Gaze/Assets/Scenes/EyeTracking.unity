@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783efcb2a39df4d40bd7825b2d8f8d13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCalibrating: {fileID: 0}
+  isCalibrating: {fileID: 1541776943}
   calibrationIcon: {fileID: 8667461873522849480, guid: 21c7a33340f84264cade4fc1f9a79ad3, type: 3}
 --- !u!114 &1338018462
 MonoBehaviour:

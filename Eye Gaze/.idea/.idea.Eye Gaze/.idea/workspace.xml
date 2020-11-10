@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99e98fc2-236e-45a0-b67b-f09b554ddd40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Eye Gaze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Calibration Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Calibration Prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CalibrationSetup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/EyeTracking.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EyeTrackerSupported.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARFaceManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -110,6 +109,8 @@
       <workItem from="1604777200934" duration="16351000" />
       <workItem from="1604863559735" duration="9280000" />
       <workItem from="1604888237357" duration="2731000" />
+      <workItem from="1604891543707" duration="2741000" />
+      <workItem from="1604944289267" duration="9335000" />
     </task>
     <servers />
   </component>
